@@ -1,0 +1,39 @@
+/* src/components/Home.css */
+.home-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  background-image: url("../../assets/fundo.jpg"); /* Defina a imagem de fundo específica para a página Home */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Ajusta a altura para cobrir toda a altura da janela do navegador */
+  overflow: hidden; /* Impede a rolagem vertical */
+}
+
+.home-title {
+  color: #14213d;
+  font-family: "Palanquin Dark", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+.home-text {
+  color: #14213d;
+  font-family: "Pangolin", cursive;
+  font-size: 28px;
+  text-align: center;
+  width: 340px;
+}
+
+.home-content {
+  max-width: 600px;
+  width: 100%;
+  padding-top: 400px; /* Ajusta o espaço entre o topo do conteúdo e o navbar */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: 100px;
+  align-items: center;
+}

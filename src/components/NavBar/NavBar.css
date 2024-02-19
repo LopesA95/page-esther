@@ -1,0 +1,33 @@
+/* src/components/NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a661c1;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-family: 'Pangolin', sans-serif;
+  width: 150px; /* ajuste conforme necessário */
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0 20px 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}

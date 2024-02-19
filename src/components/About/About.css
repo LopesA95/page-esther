@@ -1,0 +1,75 @@
+/* src/components/About.css */
+.about-container {
+  display: flex;
+  align-items: center;
+  background-color: #fca311;
+  padding: 20px;
+  height: 100vh;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 100px; /* Ajusta o espaço entre o topo do conteúdo e o navbar */
+  text-align: justify;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.about-descriptions {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  font-family: "Palanquin Dark", monospace;
+  font-weight: 100;
+  font-size: 70px;
+  color: #14213d;
+  margin: 0;
+  margin-bottom: 180px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-text {
+  color: #14213d;
+  font-family: "Pangolin", cursive;
+  font-size: 24px;
+  text-align: center;
+  width: 730px;
+  font-weight: bolder;
+}
+
+.card-image {
+  margin-top: 20px; /* Espaçamento abaixo do texto */
+  margin-bottom: 20px; /* Espaçamento acima do texto */
+  border-radius: 8px;
+}
+
+.images-container {
+  position: relative;
+}
+
+.esther-image {
+  z-index: 1;
+  max-width: 600px;
+  position: absolute;
+  left: 900px; /* Ajuste a posição direita conforme necessário */
+  bottom: -20px; /* Ajuste a posição inferior conforme necessário */
+  overflow: hidden;
+}
+
+.elips-image {
+  max-width: 700px;
+
+  position: absolute;
+  left: 780px; /* Ajuste a posição direita conforme necessário */
+  bottom: -150px; /* Ajuste a posição inferior conforme necessário */
+  border: none;
+  overflow: hidden;
+}

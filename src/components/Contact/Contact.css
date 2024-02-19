@@ -1,0 +1,10 @@
+/* src/components/Contact.css */
+.contact-container {
+  background-color: #FCA311;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  color: #333;
+}
